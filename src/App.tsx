@@ -1,5 +1,14 @@
+import { Header } from './components/header';
+import { Post } from './components/Post';
+
 function App() {
-  return <p>Hello World!</p>;
+  return (
+    <>
+      <Header />
+
+      <Post author="Wevison" content="Estou criando um novo post! Você acredita?" />
+    </>
+  );
 }
 
 export default App;
