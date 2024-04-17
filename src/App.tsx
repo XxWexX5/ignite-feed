@@ -14,6 +14,7 @@ function App() {
 
         <main>
           <Post author="Wevison" content="Estou criando um novo post! Você acredita?" />
+          <Post author="Wevison 2" content="Estou criando um novo post! Você acredita?" />
         </main>
       </div>
     </>

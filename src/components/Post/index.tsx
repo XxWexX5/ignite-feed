@@ -1,6 +1,11 @@
 import styles from './style.module.css';
 
-export function Post() {
+interface PostProps {
+  author?: string;
+  content?: string;
+}
+
+export function Post({ author, content }: PostProps) {
   return (
     <article className={styles.post}>
       <header>
@@ -27,11 +32,13 @@ export function Post() {
         </p>
 
         <p>
-          👉 <a href="#">jane.design/doctorcare</a>
+          👉 &nbsp;<a href="#">jane.design/doctorcare</a>
         </p>
 
         <p>
-          <a href="#">#novoprojeto #nlw #rocketseat</a>
+          <a href="#">#novoprojeto</a>
+          <a href="#"> #nlw </a>
+          <a href="#">#rocketseat</a>
         </p>
       </main>
     </article>
